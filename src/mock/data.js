@@ -30,12 +30,43 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'softwareEnginer.png',
+    title: 'Software Developer at Vizah Gmbh',
+    info:
+      'Wrote software applications in Java architecture for Web industry, Designet .Net based admin desktop app,',
+    info2:
+      'Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs and enhancements.',
+    url: 'https://covalo.com/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'reactDev.png',
+    title: 'React Developer',
+    info:
+      'Enforced Agile and Scrum development methodologies on interface projects to shorten development times, Drafted detailed technical design documents for use by collaborating personnel and future developers.',
+    info2: 'ntegrated new interfaces with backend systems using micro services.',
+    url: '',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'netDev.png',
+    title: 'Web Developer with .Net',
+    info:
+      'Enforced Agile and Scrum development methodologies on interface projects to shorten development times.',
+    info2: 'Integrated new interfaces with backend systems using micro services.',
+    url: '',
+    repo: '',
+  },
+  {
+    id: nanoid(),
     img: 'reactjs.png',
     title: 'Software Developer React, React-Native',
     info:
       'Worked with customers to understand needs and provide programming service, Managed quality assurance program, including on-site evaluations, internal audits and customer surveys',
     info2: 'Increased customer satisfaction by resolving product issues.',
-    url: 'https://firmagraphix-ks.com/',
+    url: '',
     repo: '',
   },
   {
@@ -71,6 +102,16 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/harbinab_/',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/harbin.ab',
+    },
     {
       id: nanoid(),
       name: 'twitter',
