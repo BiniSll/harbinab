@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: ' ', // e.g: 'Name | Developer'
-  lang: ' ', // e.g: en, es, fr, jp
-  description: ' ', // e.g: Welcome to my website
+  title: 'Harbin Avduramani', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Software Engineer', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -28,6 +28,27 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'softwareEnginer.png',
+    title: 'Part time software enginner at IQSER Technologie GmbH.',
+    info:
+      'Design and implement new software programs and systems and develop and modify existing programs as needed',
+    info2: '',
+    url: 'https://instantli.com/about-us/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
+    img: 'softwareEnginer.png',
+    title: 'Full time software enginner at Alaturkaj LLC',
+    info:
+      'Design and implement new software programs and systems and develop and modify existing programs as needed',
+    info2:
+      'Analyse and identify needs by investigating problem areas and implementing user feedback to develop software that meets those needs',
+    url: '',
+    repo: '',
+  },
   {
     id: nanoid(),
     img: 'softwareEnginer.png',
